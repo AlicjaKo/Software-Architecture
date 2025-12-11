@@ -37,8 +37,10 @@ docker compose up -d db
 ```
 2. Build and run the Spring Boot app locally:
 ```bash
-mvn -DskipTests package
-mvn spring-boot:run
+SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5433/flashcards \
+SPRING_DATASOURCE_USERNAME=flashuser \
+SPRING_DATASOURCE_PASSWORD=flashpass \
+mvn -DskipTests spring-boot:run
 ```
 
 **Using the CLI demo**
