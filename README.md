@@ -53,35 +53,3 @@ mvn spring-boot:run
 mvn -DskipTests package
 java -jar target/flashcards-0.1.0.jar
 ```
-
-**Suggested Enhancements (optional)**
-- Add a small REST API to allow graders to interact via HTTP (endpoints for create/list/review).
-- Add an external message broker (RabbitMQ/Kafka) if the course requires distributed messaging.
-- Add integration tests using Testcontainers for Postgres.
-- Add `README` demo commands (curl examples) if REST endpoints are added.
-
-**Grading checklist (for this course part)**
-- Spring Boot: ✅
-- Distributed DB: ✅ (Postgres)
-- Asynchronization / queues or event distribution: ✅ (Spring events + async). If an external broker is required, add RabbitMQ/Kafka.
-- Scheduling/background jobs: ✅
-
-**Contact / Notes**
-- If you want, I can: add a REST controller, add RabbitMQ to `docker-compose.yml`, or add Testcontainers-based integration tests. Tell me which and I'll implement it.
-# Flashcards (Spaced Repetition Scheduler)
-
-Simple Spring Boot backend for flashcards with a Spaced Repetition Scheduler.
-
-Run locally with Docker:
-
-```bash
-docker-compose up --build
-```
-
-CLI commands (after app starts):
-- `add "Question" "Answer"`
-- `list`
-- `due`
-- `review <uuid>`
-- `exit`
-# Software-Architecture

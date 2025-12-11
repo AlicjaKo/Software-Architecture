@@ -1,0 +1,8 @@
+com/example/flashcards/service/FlashcardService.class
+com/example/flashcards/domain/Flashcard.class
+com/example/flashcards/util/SRSCalculator.class
+com/example/flashcards/service/ReviewService.class
+com/example/flashcards/util/SRSCalculator$Result.class
+com/example/flashcards/domain/ReviewHistory.class
+com/example/flashcards/service/SchedulerService.class
+com/example/flashcards/service/SpacedRepetitionService.class

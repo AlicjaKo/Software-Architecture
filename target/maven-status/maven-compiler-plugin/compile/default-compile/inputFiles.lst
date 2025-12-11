@@ -1,0 +1,14 @@
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/repository/FlashcardRepository.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/service/SchedulerService.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/FlashcardsApplication.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/config/AsyncConfig.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/service/FlashcardService.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/util/SRSCalculator.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/cli/FlashcardCLI.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/domain/Flashcard.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/service/ReviewService.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/events/CardReviewedEvent.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/domain/ReviewHistory.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/repository/ReviewHistoryRepository.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/service/SpacedRepetitionService.java
+/Users/ala/Desktop/Uni/architecture/final project/src/main/java/com/example/flashcards/events/CardReviewedListener.java
