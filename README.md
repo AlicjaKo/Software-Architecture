@@ -23,7 +23,7 @@
 - Maven
 - Docker & Docker Compose (or Docker Desktop)
 
-**Run locally (without Docker for the app)**
+**Run locally***
 1. Start only the database:
 ```bash
 docker compose up -d db
