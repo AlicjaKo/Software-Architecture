@@ -23,13 +23,6 @@
 - Maven
 - Docker & Docker Compose (or Docker Desktop)
 
-**Run (recommended using Docker Compose)**
-1. Build and start services (app will be built inside `app` service):
-```bash
-docker compose up --build
-```
-2. The app will be available on port `8080` (if built to expose it). The PostgreSQL service listens internally as `db:5432`; the compose file maps host `5433` to container `5432`.
-
 **Run locally (without Docker for the app)**
 1. Start only the database:
 ```bash
@@ -39,17 +32,4 @@ docker compose up -d db
 ```bash
 mvn -DskipTests package
 mvn spring-boot:run
-```
-
-**Using the CLI demo**
-- When the app starts it launches a minimal interactive CLI (`FlashcardCLI`) on the application STDOUT. Use it to create cards and practice (options: create, practice due, practice all).
-
-**Database connection (overrides / env)**
-- The app reads DB connection values from environment variables: `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`. Defaults are in `application.yml`.
-
-**Build**
-- Build a runnable jar:
-```bash
-mvn -DskipTests package
-java -jar target/flashcards-0.1.0.jar
 ```
